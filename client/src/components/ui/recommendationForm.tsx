@@ -70,6 +70,7 @@ export function RecommendationForm({ onSubmit }) {
         variant="outlined"
         fullWidth
         required
+        
         InputLabelProps={{
           style: { color: "#ffffff" },
         }}
