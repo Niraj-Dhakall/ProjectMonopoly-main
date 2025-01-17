@@ -37,7 +37,6 @@ export function AiPage() {
 
   const handleFormSubmit = (data) => {
     console.log("Form submitted with data:", data);
-    // Handle form submission logic here
   };
 
   return (
@@ -78,14 +77,14 @@ export function AiPage() {
         </Menu>
       </Box>
 
-      {/* Add a container with relative positioning for the form */}
+      
       <Box
         sx={{
           position: "relative",
           width: "100%",
         }}
       >
-        {/* Add a container for the form with appropriate styling */}
+       
         <Box
           sx={{
             position: "absolute", 
@@ -93,7 +92,7 @@ export function AiPage() {
             left: 0, 
             width: "400px", 
             padding: "0px", 
-            borderRadius: "5px", 
+            borderRadius: "5px",
             boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)" 
           }}
         >
